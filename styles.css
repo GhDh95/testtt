@@ -1,0 +1,46 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: #171F34;
+    padding: 1% 5%;
+    color: white;
+}
+
+.childContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .3fr repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    border-radius: 50%;
+}
+
+
+#circles{
+    display: flex;
+}
+
+.border-white{
+    border: 1px solid white;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Keep the default text color */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: white; /* Change text color to white on hover */
+}
